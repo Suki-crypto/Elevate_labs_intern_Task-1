@@ -1,0 +1,6 @@
+IP Address,Port,Service,Is It Needed?,Exposed Beyond Local Network?,Using Encryption?,Patched & Up-to-date?,Notes / Action to Take
+192.168.149.230,80,HTTP,No,No,No,Yes,Disable or upgrade to HTTPS (443)
+192.168.149.230,135,MSRPC,Yes,No,No,Yes,Keep system updated
+192.168.149.230,139,NetBIOS,No,No,No,Yes,Disable NetBIOS if unused
+192.168.149.230,445,SMB,No,Yes,No,Unknown,Block port on firewall
+192.168.149.230,1024,Dynamic,Unknown,No,No,Unknown,Identify service using netstat
